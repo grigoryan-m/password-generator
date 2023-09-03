@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel{
+    width: 400px;
+    max-width: calc(100% - 70px);
+    height: auto;
+    padding: 30px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 12px;
+}
+#generatedPassword{
+    padding: 10px;
+}
+#generateButton{
+    cursor: pointer;
+}
